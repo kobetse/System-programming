@@ -1,7 +1,7 @@
 body{
-background-color: #646464; 
-	height: 100vh;
 	margin: 0 auto;
+	background-color: #27272E; 
+	height: 100vh;
 }
 
 header{
@@ -21,18 +21,18 @@ header{
  .header_menu{
  height: 120px;
 	position: relative;
-	margin-left: 115px;
+	margin-left: 150px;
 	/*margin-top: 5px;*/
 	/*bottom: 100px;*/
 }
 .nav_link{
 
 	font-family: 'Copse', serif;
-	float: left;
+	/*float: left;*/
 	color: #FFFFFF;
 	text-decoration: none;
 	padding-top: 40px;
-	padding-right: 100px;
+	padding-right: 165px;
     font-size: 30px;
     line-height: 20px;
     visibility: visible;
@@ -44,27 +44,131 @@ header{
 
 .header_content {
 	margin: 0 auto;
-background-color: #7E7E7E;
+background-color: #7C7D80;
 width: 1260px;
-height: 680px;
+height: 400px;
 }
+
 .header_title{
 padding-top: 50px;
 	margin: 0 auto;
 text-align: center;
 font-family: 'Copse', serif;
-color: #F0F0F0;
+color: #DADBDF;
 font-size: 40px; 
  }
+.header_text{
+margin: 0 auto;
+text-align: center;
+font-family: 'Copse', serif;
+font-size: 30px;
+color: #F1EDEA;
+padding-top: 30px ;
+}
+
 .header_text1{
 margin: 0 auto;
 text-align: center;
 font-family: 'Copse', serif;
-margin-top: 10px;
+padding-top: 40px;
 
 font-size: 24px;
 color: #F0F0F0;
 text-decoration: none;
-width: 1200px;
+width: 1000px;
 }
 
+/* PAGE2 */
+.container_page2{
+margin: 0 auto;
+margin-top: 10px;
+padding-top: 10px;
+background-color: #7C7D80;
+width: 1260px;
+height: 1550px;
+
+}
+.page2_text{
+margin: 0 auto;
+text-align: center;
+font-family: 'Copse', serif;
+font-size: 30px;
+color: #DADBDF;
+padding-top: 30px ;	
+}
+
+.title-large {
+padding-left: 120px;
+font-family: 'Copse', serif;
+color: #C3D0E0;
+font-size: 24px;
+font-weight: bold;
+margin-top: 0px;
+}
+.title-medium {
+padding-left: 170px;
+font-size: 22px;
+font-family: 'Copse', serif;
+color: #B9C6D6;
+font-weight: bold;
+margin-top: 0px;
+}
+.text {
+padding-left: 210px;
+width: 900px;
+font-size: 22px;
+font-family: 'Copse', serif;
+color: #F1EDEA;
+ margin-top: 0px;
+}
+
+
+
+
+/* PAGE3 */
+.container_page3{
+margin: 0 auto;
+margin-top: 10px;
+padding-top: 10px;
+background-color: #7C7D80;
+width: 1260px;
+height: 2300px;
+
+}
+.page3_text{
+margin: 0 auto;
+text-align: center;
+font-family: 'Copse', serif;
+font-size: 30px;
+color: #DADBDF;
+padding-top: 30px ;	
+padding-bottom: 30px ;	
+}
+
+.title {
+padding-left: 120px;
+color: #B9C6D6;
+font-family: 'Copse', serif;
+font-size: 24px;
+margin-top: 10px;
+}
+.command {
+font-size: 16px;
+background-color: #54555A;
+border-left: 4px solid #949599;
+padding: 15px;
+margin: 15px 0;
+font-family: monospace;
+width: 350px;
+margin-left: 210px;
+color: #DADBDF;
+margin-bottom: 50px;
+        }
+.description {
+color: #F1EDEA;
+	width: 900px;
+padding-left: 170px;
+font-size: 22px;
+margin-top: 10px;
+margin-bottom: 20px;
+        }
