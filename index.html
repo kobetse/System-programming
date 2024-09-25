@@ -12,10 +12,10 @@
        <div class="container">
 
         <div class="header_menu">
-          <a href="#" class="nav_link" data-scroll="#home">HOME</a>
-          <a href="#" class="nav_link" data-scroll="#projects">PROJECTS</a>
-          <a href="#" class="nav_link" data-scroll="#documentation" >DOCUMENTATION</a>
-          <a href="#" class="nav_link" data-scroll="#about-me">ABOUT-ME</a>
+          <a href="#" class="nav_link" data-scroll="#page1">PAGE1</a>
+          <a href="#" class="nav_link" data-scroll="#page2">PAGE2</a>
+          <a href="#" class="nav_link" data-scroll="#page3" >PAGE3</a>
+          <a href="#" class="nav_link" data-scroll="#page4">PAGE4</a>
           
           
         
@@ -24,16 +24,116 @@
 
      </div>
 
-<div class="header_content" id="home">
+<div class="header_content" id="page1">
+  <div class="header_text">Cистеми контролю версій та Git</div>
 
-
-          <div class="header_text1">Системи контролю версій (VCS) — це програмні інструменти, що допомагають керувати змінами в коді та інших файлах проектів. Вони зберігають історію змін, дозволяють співпрацювати в команді, відстежувати версії, а також повертатися до попередніх станів проєкту. Існують централізовані (як Subversion) та розподілені системи (як Git).</div>
 
           <div class="header_text1">Git — це популярна розподілена система контролю версій, яка дозволяє кожному розробнику мати повну копію репозиторію. Основні команди Git включають git init (створення репозиторію), git add (додавання змін), git commit (збереження змін), git push (відправка змін на віддалений сервер) і git pull (отримання змін з сервера).</div>
+          <div class="header_text1">Системи контролю версій (VCS) — це програмні інструменти, що допомагають керувати змінами в коді та інших файлах проектів. Вони зберігають історію змін, дозволяють співпрацювати в команді, відстежувати версії, а також повертатися до попередніх станів проєкту. Існують централізовані (як Subversion) та розподілені системи (як Git).</div>
+
+          
 
           </div>
 
  </header>
+
+ <page2> 
+  <div class="container_page2">
+<div class="page2_text" id="page2">Основні можливості та переваги використання Git</div>
+
+ <p class="title-large">Можливості:</p>
+
+    <p class="title-medium">Локальна робота з репозиторієм:</p>
+    <p class="text">Кожен користувач має локальну копію всього репозиторію, що дозволяє працювати з кодом без постійного доступу до інтернету.</p>
+
+    <p class="title-medium">Відстеження змін:</p>
+    <p class="text">Git фіксує всі зміни, зроблені в проєкті, дозволяючи повернутися до попередніх версій файлів.</p>
+
+    <p class="title-medium">Гілки (branches):</p>
+    <p class="text">Можна створювати незалежні гілки для роботи над різними функціями або виправленням помилок, без впливу на основну версію коду.</p>
+
+    <p class="title-medium">Злиття змін (merge):</p>
+    <p class="text">Після завершення роботи в гілці її зміни можуть бути легко об'єднані з основною версією коду.</p>
+
+    <p class="title-medium">Віддалені репозиторії:</p>
+    <p class="text">Можна синхронізувати локальний репозиторій з віддаленими серверами (наприклад, на GitHub або GitLab).</p>
+
+    <p class="title-medium">Резерв конфліктів:</p>
+    <p class="text">Git пропонує інструменти для вирішення конфліктів, що виникають під час злиття змін.</p>
+
+    <p class="title-medium">Історія комітів:</p>
+    <p class="text">Можна переглядати детальну історію змін, включаючи коментарі до комітів, авторів і час внесення змін.</p>
+
+    <p class="title-large">Переваги:</p>
+
+    <p class="title-medium">Розподіленість:</p>
+    <p class="text">Кожен користувач має повну копію репозиторію, що підвищує стійкість до втрати даних і дозволяє працювати офлайн.</p>
+
+    <p class="title-medium">Гнучкість роботи з гілками:</p>
+    <p class="text">Легка робота з гілками дозволяє ефективно реалізовувати нові функції, експериментувати та виправляти помилки без ризику зламати основну версію коду.</p>
+
+    <p class="title-medium">Швидкодія:</p>
+    <p class="text">Більшість операцій виконується локально, тому Git працює дуже швидко навіть з великими проєктами.</p>
+
+    <p class="title-medium">Відкритий код та підтримка спільноти:</p>
+    <p class="text">Git є відкритим програмним забезпеченням з великою спільнотою, що забезпечує доступ до навчальних матеріалів, інструментів та підтримки.</p>
+
+    <p class="title-medium">Безпека:</p>
+    <p class="text">Історія комітів захищена від модифікацій, що гарантує прозорість і цілісність змін.</p>
+
+</div>
+ </page2>
+
+ <page3>
+   <div class="container_page3">
+    <div class="page3_text" id="page3">10 базових команд роботи в системі Git з коментарями</div>
+
+ <p class="title">1. git init</p>
+    <div class="description">Ініціалізує новий Git-репозиторій у поточній директорії. Створює приховану папку .git, де зберігаються всі версії та коміти проекту.</div>
+    <div class="command">git init</div>
+
+    <p class="title">2. git clone < url ></p>
+    <div class="description">Клонує (завантажує) існуючий репозиторій з віддаленого серверу на локальний комп'ютер.</div>
+    <div class="command">git clone https://github.com/user/repository.git</div>
+
+    <p class="title">3. git add < file ></p>
+    <div class="description">Додає зміни файлу або файлів до індексу (стейджингу) для підготовки до коміту.</div>
+    <div class="command">git add file.txt</div>
+
+    <p class="title">4. git commit -m "коментар"</p>
+    <div class="description">Фіксує зміни в локальному репозиторії з коментарем, що пояснює зміни.</div>
+    <div class="command">git commit -m "Додано нову функцію"</div>
+
+    <p class="title">5. git status</p>
+    <div class="description">Показує поточний стан робочого каталогу, включаючи інформацію про файли, які були змінені, додані або готові для коміту.</div>
+    <div class="command">git status</div>
+
+    <p class="title">6. git pull</p>
+    <div class="description">Завантажує та об'єднує зміни з віддаленого репозиторію у вашу локальну гілку.</div>
+    <div class="command">git pull origin main</div>
+
+    <p class="title">7. git push</p>
+    <div class="description">Відправляє зміни з локального репозиторію на віддалений репозиторій.</div>
+    <div class="command">git push origin main</div>
+
+    <p class="title">8. git branch</p>
+    <div class="description">Показує список існуючих гілок у репозиторії або створює нову гілку.</div>
+    <div class="description">Показати всі гілки:</div>
+    <div class="command">git branch</div>
+    <div class="description">Створити нову гілку:</div>
+    <div class="command">git branch new-feature</div>
+
+    <p class="title">9. git checkout < branch ></p>
+    <div class="description">Перемикає робочу директорію на вказану гілку або коміт.</div>
+    <div class="command">git checkout main</div>
+   
+    <p class="title">10. git merge < branch > </p>
+    <div class="description">Об'єднує зміни з вказаної гілки до поточної гілки.</div>
+    <div class="command">git merge new-feature</div>
+
+
+  </div>
+ </page3>
     
 </body>
 </html>
