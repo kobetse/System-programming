@@ -176,3 +176,24 @@ font-size: 22px;
 margin-top: 10px;
 margin-bottom: 20px;
         }
+
+/* PAGE4 */
+
+.container_page4{
+margin: 0 auto;
+margin-top: 10px;
+padding-top: 10px;
+background-color: #7C7D80;
+width: 1260px;
+height: 2300px;
+
+}
+.page4_text{
+margin: 0 auto;
+text-align: center;
+font-family: 'Copse', serif;
+font-size: 30px;
+color: #DADBDF;
+padding-top: 30px ;	
+padding-bottom: 30px ;	
+}
